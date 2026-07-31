@@ -1,0 +1,68 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.logo img{
+    width: 65px;
+}
+
+.menu-items{
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: "Playfair Display", sans-serif;
+    transition: all 0.3s ease;
+    color: black;
+}
+
+.nav-btn{
+     padding: 0.6rem 1.5rem;
+     border: 1px solid #d8ac07;
+     background-color: #d8ac07;
+     border-radius: 0.5rem;
+     color: #fff;
+     font-weight: 600;
+     font-size: 1rem;
+     font-family: "Playfair Display", serif;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+#overlay-nav ul{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+#overlay-nav li{
+    margin-bottom: 1.5rem;
+}
+  
+#overlay{
+    display: none;
+}
+
+.close-icon{
+    display: none;
+}
+
+@media screen and (min-width: 992px) {
+    .menu-icon,
+    .close-icon{
+        display: none;
+    }
+
+    #overlay{
+        display: block;
+    }
+
+    #overlay-nav ul{
+        flex-direction: row;
+        gap: 2rem;
+    }
+}
