@@ -1,6 +1,6 @@
 .hero-container{
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/hero-images/260720-spain-win-world-cup-bf-1011-9b5b5d.webp");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero-images/260720-spain-win-world-cup-bf-1011-9b5b5d.webp");
     min-height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -21,4 +21,15 @@
     font-size: 1.5rem;
     font-weight: 500;
     color: #fff;
+    margin-bottom: 1rem;
+}
+
+.hero-button{
+      background-color: #d8ac07;
+      padding: 0.8rem 1.5rem;
+      border-radius: 0.6rem;
+      color: #fff;
+      font-weight: 500;
+      font-size: 1rem;
+      border: 1px solid #d8ac07;
 }

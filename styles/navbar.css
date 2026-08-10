@@ -52,6 +52,10 @@ header{
 }
 
 @media screen and (min-width: 992px) {
+    header{
+        padding: 1rem 7.5rem;
+    }
+    
     .menu-icon,
     .close-icon{
         display: none;
@@ -65,4 +69,5 @@ header{
         flex-direction: row;
         gap: 2rem;
     }
+
 }

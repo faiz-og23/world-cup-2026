@@ -1,0 +1,34 @@
+.about-us-container{
+    padding: 4rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us-container h1{
+    font-size: 2rem;
+    font-weight: 600;
+    color: rgb(82, 76, 76);
+    text-decoration: underline;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.about-us-container p{
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-align: center;
+    font-family: "Libre Franklin", sans-serif;
+}
+
+
+@media screen and (min-width: 992px){
+    .about-us-container {
+        padding: 5rem 7.5rem;
+    }
+
+    .about-us-container p{
+        max-width: 800px;
+    }
+}
